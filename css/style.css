@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+body * {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1568206222579-3d32da70596b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80") bottom/cover;
+  box-shadow: inset rgba(0, 0, 0, 0.6);
+}
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 20px 0px;
+  background-color: #2f2f2f;
+}
+header ul li a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 500ms;
+}
+header ul li a:hover {
+  color: #d1d1d1;
+  text-shadow: 0px 0px 10px #c8c8c8;
+}
+
+main .btn {
+  padding: 15px 20px;
+  background-color: #dd8800;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+main .card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .card div {
+  width: 220px;
+  margin: 40px 20px;
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 20px;
+}
+main .card div img {
+  width: 25%;
+}
+main .card div h3 {
+  margin: 15px 0px;
+}
+main .scene {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: #050e1b;
+}
+main .scene div {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 50px;
+  color: white;
+}
+main .scene div p {
+  margin: 40px 0px;
+}
+main .goods {
+  text-align: center;
+}
+main .goods h1 {
+  font-size: 45px;
+  position: relative;
+}
+main .goods h1::before {
+  content: "";
+  width: 150px;
+  position: absolute;
+  border: 2px solid #dd8800;
+  bottom: 0px;
+  left: 45%;
+}
+main .goods p {
+  width: 40%;
+  font-size: 20px;
+  margin: 20px auto;
+}
+main .goods section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .goods section img {
+  width: 25%;
+  height: 200px;
+}
+main .skills {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+main .skills div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  background-color: #959595;
+  margin: 10px;
+}
+main .skills div:nth-child(1) img {
+  width: 180px;
+  border-radius: 50%;
+}
+main .skills div:nth-child(2) {
+  background-color: #959595;
+  padding: 20px;
+  margin: 10px;
+}
+main .skills div:nth-child(2) p {
+  margin: 20px 0px;
+}
+main .skills div:nth-child(2) div {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+main .skills div:nth-child(2) div h3 {
+  font-weight: 400;
+}
+
+
